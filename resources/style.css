@@ -1,5 +1,5 @@
 html {
-  font-family: "Open-sans", sans-serif;
+  font-family: "Catamaran", sans-serif;
   color: #4a4a4a;
   font-size: 18px;
 }
@@ -226,7 +226,73 @@ video {
   flex-direction: column;
 }
 
-.thesis h1 {
+.thesis h2 {
   width: 100%;
   text-align: center;
+}
+
+.thesis-content {
+  display: flex;
+  margin-top: 32px;
+}
+
+.thesis-video {
+  width: 60%;
+  margin-left: 24px;
+}
+
+.thesis-sidebar {
+  width: 40%;
+  margin-left: 24px;
+}
+
+.thesis-video h3 {
+  margin-top: 24px;
+  padding-bottom: 8px;
+}
+
+.studies {
+  display: flex;
+  align-items: center;
+}
+
+.studies:first-child {
+  background-color: #eaebec;
+}
+
+.studies img {
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.studies .text {
+  height: auto;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 16px;
+  padding-bottom: 50px;
+  border-top: 1px solid #d8d8d8;
+}
+
+footer .p {
+  font-size: 0.5rem;
+}
+
+.last-p {
+  display: flex;
+  align-items: center;
+}
+
+.two-p {
+  margin-right: 15px;
 }
